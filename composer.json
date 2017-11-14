@@ -1,0 +1,20 @@
+{
+  "name": "phizzl/deployee-oxideshop",
+  "description": "Extension for Deployee to add functionality for OXID eShop",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Phillip Schleicher",
+      "email": "the@phizzl.de"
+    }
+  ],
+  "require": {
+    "phizzl/deployee": "v0.2@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deployee\\Plugins\\": "src/"
+    }
+  }
+}
